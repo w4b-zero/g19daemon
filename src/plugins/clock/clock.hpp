@@ -41,12 +41,13 @@ public:
   bool isPopup();
   QObject *getQObject();
   void mKeys(int keys);
+  QString getCurrentTime();
 
 private:
   Gscreen *screen;
   bool isActive;
   void paint();
-
+  
 signals:
   void doAction(gAction action, void *data); // Signal to draw img on screen
 };
