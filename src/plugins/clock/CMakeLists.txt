@@ -10,7 +10,8 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/CMakeModules/")
 
 find_package(Qt6 REQUIRED COMPONENTS Core Gui)
-qt_standard_project_setup()
+
+#qt_standard_project_setup()
 
 include_directories(${Qt6Core_INCLUDE_DIRS} ${Qt6Gui_INCLUDE_DIRS} ${LIBUSB_1_INCLUDE_DIRS})
 
