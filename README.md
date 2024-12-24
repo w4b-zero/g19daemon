@@ -1,3 +1,11 @@
+## My Code to try testing and learning Qt-Code ! 
+
+**! Please Use the Original-Source from: https://github.com/mortendynamite/g19daemon !**
+
+**! Big thanks to [jimmyd-be](https://github.com/jimmyd-be) for this great work !**
+
+**! G19daemon - The best Linux-integration for the Logitech G19 Keyboard !**
+
 # G19daemon
 
 Linux daemon for Logitech G19 Keyboard
